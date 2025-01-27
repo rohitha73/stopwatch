@@ -1,0 +1,31 @@
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.btn-item{
+    width: 100px;
+    height: 80px;
+    font-weight: bold;
+    font-size: medium;
+    background-color: crimson;
+    border: none;
+}
+.btn-item:hover{
+    border: 2px solid white;
+    opacity: 0.91;
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+}
+.stop-watch{
+    margin-top: 30vh;
+}
+body{
+    background-color: azure;
+}
